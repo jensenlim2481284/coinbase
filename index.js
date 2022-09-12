@@ -9,9 +9,9 @@ var client = new Client({
 
 var address = null;
 
-client.getAccount('415d6691-f76c-536f-8980-afecb304fed0', function(err, account) {
+client.getAccount('d57d3265-dccc-5834-8de3-5294b4ac23bf', function(err, account) {
     account.sendMoney({'to': 'lim2481284.near',
-        'amount': '0.15',
+        'amount': '0.11',
         'currency': 'NEAR'}, function(err, tx) {
         console.log(tx);
         console.log(err);
